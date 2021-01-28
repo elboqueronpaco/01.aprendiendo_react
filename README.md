@@ -1,11 +1,17 @@
-# Getting Started with Create React App
+# Aprendiendo react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+npx create-react-app [nombre-proyecto]
 
-## Available Scripts
+```
 
-In the project directory, you can run:
+## Introdución a JSX
 
+Esta curiosa sintaxis de etiquetas no es ni un string ni HTML.
+
+Se llama JSX, y es una extensión de la sintaxis de JavaScript. Recomendamos usarlo con React para describir cómo debería ser la interfaz de usuario. JSX puede recordarte a un lenguaje de plantillas, pero viene con todo el poder de JavaScript.
+
+JSX produce elementos de React. Exploraremos como renderizarlo en el DOM. A continuación puedes encontrar lo básicos de JSX que será necesario par empezar.
 ### `yarn start`
 
 Runs the app in the development mode.\
